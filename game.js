@@ -1,11 +1,11 @@
 let $submitButton = document.getElementById('submit');
-console.log($submitButton);
+// console.log($submitButton);
 
 let $msg = document.getElementById('message');
 let $lives = document.getElementById('lives');
 
 var guessNumber = Math.round(Math.random()*100);
-console.log(guessNumber);
+// console.log(guessNumber);
 var lives = 10;
 var message;
 $submitButton.onclick = () => {
